@@ -4,7 +4,7 @@
 
 ## Install
 
-Download the dmg file from the latest release.
+Download the dmg file from the [latest release](https://github.com/zhuzilin/chatgpt-desktop/releases/latest).
 
 ## Manually load cookie
 
