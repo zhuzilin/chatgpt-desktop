@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-desktop",
+  "version": "1.0.0",
+  "description": "a desktop version of ChatGPT using electron",
+  "main": "src/main.js",
+  "author": "zhuzilin",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -m ."
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^22.10.3"
+  }
+}
