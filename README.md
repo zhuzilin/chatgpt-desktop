@@ -1,15 +1,19 @@
 # OpenAI ChatGPT Desktop built with Electron
 
-<img src="img/header.png" style="zoom: 33%;" />
-
+<p align="center">
+  <img src="img/header.png" width="600" />
+</p>
+  
 ## Install
 
 Download the dmg file from the [latest release](https://github.com/zhuzilin/chatgpt-desktop/releases/latest).
 
 ## Manually load cookie
 
-<img src="img/set-cookie.png" style="zoom:33%;" />
-
+<p align="center">
+  <img src="img/set-cookie.png" width="600" />
+</p>
+  
 If you are not able to normally login, you could use \[Tool\] -> [Set Cookie] to load session token into cookie from a certain file.
 
 To get the sesson token, check the instruction in [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api#session-tokens). 
