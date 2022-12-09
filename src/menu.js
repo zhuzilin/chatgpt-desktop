@@ -9,7 +9,7 @@ const template = [
         role: 'editMenu'
     },
     {
-        label: 'View',
+        label: 'Tool',
         submenu: [
             {role: 'reload'},
             {

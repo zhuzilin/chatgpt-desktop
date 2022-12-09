@@ -1,16 +1,24 @@
 {
   "name": "chatgpt-desktop",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "a desktop version of ChatGPT using electron",
   "main": "src/main.js",
   "author": "zhuzilin",
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder -m ."
+    "build": "electron-builder -m"
+  },
+  "build": {
+    "mac": {
+      "category": "public.app-category.education",
+      "target": "dmg",
+      "icon": "img/openai-avatar.png",
+      "darkModeSupport": true
+    }
   },
   "devDependencies": {
     "electron": "^22.0.0",
-    "electron-builder": "^22.10.3"
+    "electron-builder": "^23.6.0"
   }
 }
